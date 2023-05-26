@@ -6570,12 +6570,12 @@ a.close.disabled {
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  -webkit-transition: -webkit-transform 0.6s ease-in-out;
-  transition: -webkit-transform 0.6s ease-in-out;
-  -o-transition: transform 0.6s ease-in-out;
-  transition: transform 0.6s ease-in-out;
-  transition: transform 0.6s ease-in-out,
-    -webkit-transform 0.6s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  -o-transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out,
+    -webkit-transform 0.5s ease-in-out;
 }
 @media screen and (prefers-reduced-motion: reduce) {
   .carousel-item {
@@ -6626,9 +6626,9 @@ a.close.disabled {
 .carousel-fade .active.carousel-item-right {
   z-index: 0;
   opacity: 0;
-  -webkit-transition: 0s 0.6s opacity;
-  -o-transition: 0s 0.6s opacity;
-  transition: 0s 0.6s opacity;
+  -webkit-transition: 0s 0.5s opacity;
+  -o-transition: 0s 0.5s opacity;
+  transition: 0s 0.5s opacity;
 }
 @media screen and (prefers-reduced-motion: reduce) {
   .carousel-fade .active.carousel-item-left,
@@ -12673,8 +12673,8 @@ textarea.form-control {
   min-height: var(--section-height);
 } */
 .gallery-image {
-  max-width: 380px;
-  min-height: 380px;
+  max-width: 360px;
+  min-height: 360px;
 }
 .menu-image {
   max-width: 250px;
