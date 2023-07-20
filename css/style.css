@@ -78,6 +78,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  /* background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%) !important; */
 }
 
 [tabindex="-1"]:focus {
@@ -4479,7 +4480,9 @@ input[type="button"].btn-block {
   margin-bottom: 0;
   list-style: none;
 }
-
+.nav-item{
+  font-weight: 500;
+}
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
