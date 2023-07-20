@@ -63,7 +63,7 @@ hgroup,
 main,
 nav,
 section {
-  display: block;
+  display: flex;
 }
 
 body {
@@ -77,8 +77,10 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  /* background-color: #fff; */
   /* background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%) !important; */
+  background-image: url(/images/background.png) !important;
+  background-repeat: repeat;
 }
 
 [tabindex="-1"]:focus {
@@ -11537,8 +11539,8 @@ h5,
 }
 .menus .text .one-forth .price {
   font-size: 20px;
-  color: rgba(0, 0, 0, 0.2);
-  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
   line-height: 1.3;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
